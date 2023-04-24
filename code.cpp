@@ -72,12 +72,12 @@ int main(){
 
     //Initializing 3 queues
     queues q[3];
-    q[0].priority_start = 11;
-    q[0].priority_end = 15;
-    q[1].priority_start = 6;
-    q[1].priority_end = 10;
+    q[0].priority_start = 15;
+    q[0].priority_end = 21;
+    q[1].priority_start = 8;
+    q[1].priority_end = 14;
     q[2].priority_start = 1;
-    q[2].priority_end = 5;
+    q[2].priority_end = 7;
 
     int no_of_processes,priority_of_process,burst_time_of_process;
     //Prompt User for entering Processes and assigning it to respective queues.
